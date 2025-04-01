@@ -1,0 +1,52 @@
+{
+  "STARCHECK": {
+    "Janeiro": [
+      "Satisfação do Cliente"
+    ],
+    "Fevereiro": [
+      "Satisfação do Cliente"
+    ],
+    "Março": [
+      "Satisfação do Cliente",
+      "Produção"
+    ]
+  },
+  "VELOX": {
+    "Janeiro": [
+      "Satisfação do Cliente",
+      "Ticket Médio"
+    ],
+    "Fevereiro": [
+      "Satisfação do Cliente",
+      "Ticket Médio"
+    ],
+    "Março": [
+      "Satisfação do Cliente",
+      "Ticket Médio"
+    ]
+  },
+  "LOG": {
+    "Janeiro": [
+      "Satisfação do Cliente"
+    ],
+    "Fevereiro": [
+      "Satisfação do Cliente"
+    ],
+    "Março": [
+      "Satisfação do Cliente",
+      "Produção",
+      "Ticket Médio"
+    ]
+  },
+  "TOKYO": {
+    "Janeiro": [
+      "Satisfação do Cliente"
+    ],
+    "Fevereiro": [
+      "Satisfação do Cliente"
+    ],
+    "Março": [
+      "Satisfação do Cliente"
+    ]
+  }
+}
