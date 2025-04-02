@@ -71,7 +71,7 @@ real = dados["REAL AJ"].sum()
 perdido = dados["PERDA AJ"].sum()
 st.success(f"💰 **Total possível:** R$ {total:,.2f}")
 st.info(f"📈 **Recebido:** R$ {real:,.2f}")
-st.error(f"📉 **Perdido:** R$ {perdido:,.2f}")
+st.error(f"📉 **Deixou de ganhar:** R$ {perdido:,.2f}")
 
 # Aviso de indicadores perdidos
 if filtro_mes != "Trimestre" and filtro_empresa != "Todas":
