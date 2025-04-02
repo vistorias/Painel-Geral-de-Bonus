@@ -91,7 +91,7 @@ for idx, row in dados.iterrows():
                 <p><strong>{row['FUNÇÃO']}</strong> - {row['CIDADE']}</p>
                 <p><strong>Meta {'Mensal' if filtro_mes != 'Trimestre' else 'Trimestral'}:</strong> R$ {row['META AJ']:,.2f}<br>
                 <strong>Recebido:</strong> R$ {row['REAL AJ']:,.2f}<br>
-                <strong>Perdido:</strong> R$ {row['PERDA AJ']:,.2f}<br>
+                <strong>Deixou de ganhar:</strong> R$ {row['PERDA AJ']:,.2f}<br>
                 <strong>Cumprimento:</strong> {row['% AJ']:.1f}%</p>
                 <div style="height: 10px; background: #ddd; border-radius: 5px; overflow: hidden;">
                     <div style="width: {row['% AJ']:.1f}%; background: black; height: 100%;"></div>
